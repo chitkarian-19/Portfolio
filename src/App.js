@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         <h3>
-          Welcome to Sukrit Profile.
+          Welcome to Sukrit's Profile.
           <br/>
           Work under progress......
         </h3>
