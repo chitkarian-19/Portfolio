@@ -1,26 +1,20 @@
 import logo from './logo.svg';
+import headerImage from './images/lgbtq_bg.jpg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <h3>
-          Welcome to Sukrit's Profile.
-          <br/>
-          Work under progress......
-        </h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mainBody container-fluid'>
+
+      <div className='header row'>
+        {/* header image*/}
+
+        <div className='headerImage'>
+          <img src={headerImage} alt='header image'></img>
+        </div>
+
+      </div>
+
     </div>
   );
 }
