@@ -3,11 +3,22 @@
   width: 100vw;
 }
 .mainBody .header {
-  height: 40%;
+  height: 100%;
   width: 100%;
 }
 .mainBody .header .headerImage {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+.mainBody .header .backgroundImage {
+  background-image: url("./images/coming-soon.jpg");
+  background-repeat: none;
+}
+.mainBody .personalInfo {
+  width: 25%;
+  margin-left: 5%;
+}
+.mainBody .personalInfo .name {
+  margin-top: 30%;
 }/*# sourceMappingURL=index.css.map */

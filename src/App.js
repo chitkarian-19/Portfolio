@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import headerImage from './images/lgbtq_bg.jpg';
 import './App.css';
 
 function App() {
@@ -9,12 +7,27 @@ function App() {
       <div className='header row'>
         {/* header image*/}
 
-        <div className='headerImage'>
-          <img src={headerImage} alt='header image'></img>
+        <div className="backgroundImage">
+         
         </div>
+        
+        
+        
+
 
       </div>
+      {/* <div className="personalInfo row card shadow-sm  ">
 
+          <h2 className='name'>Sukrit Akhauri </h2>
+          <div className='designation'>Software Engineer</div>
+          <div className="addressInfo">Haryana, India</div>
+          <div className="mailInfo">sukritakhauri925@gmail.com</div>
+          <div className="contactInfo">+91-7015480564</div>
+      </div> */}
+
+      {/* <div className="projectList row d-flex flex-row">
+
+      </div> */}
     </div>
   );
 }
