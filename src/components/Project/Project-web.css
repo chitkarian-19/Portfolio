@@ -1,0 +1,116 @@
+.project_div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.project_div .personal_projects_header {
+  margin: auto;
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+}
+.project_div .personal_projects_header .square_box {
+  background-color: blueviolet;
+  width: 3%;
+  height: 3%;
+  padding: 2%;
+  animation: rotateAnimation 3s linear infinite;
+}
+.project_div .personal_projects_header .header_line {
+  margin-left: 2%;
+}
+.project_div .projects_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+  width: 100%;
+  grid-template-rows: repeat(auto-fill, minmax(min-content, 1fr)); /* Adjusted property for dynamic row height */
+  grid-auto-flow: row dense;
+  margin-bottom: 15%;
+}
+.project_div .projects_list .project_item {
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #fff;
+}
+.project_div .projects_list .project_item .thumbnail_image {
+  overflow: hidden;
+  padding: 2%;
+  position: relative;
+  cursor: pointer;
+}
+.project_div .projects_list .project_item .thumbnail_image img {
+  width: 100%;
+  height: 240px;
+}
+.project_div .projects_list .project_item .thumbnail_image .shadow_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the shadow overlay color and opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.project_div .projects_list .project_item .thumbnail_image .shadow_div .icon-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project_div .projects_list .project_item .thumbnail_image .shadow_div .icon-container svg {
+  width: 20%;
+  height: 20%;
+}
+.project_div .projects_list .project_item .project_description {
+  background-color: rgb(20, 20, 79);
+  padding: 2%;
+  margin: 2%;
+  flex-grow: 1;
+}
+.project_div .projects_list .project_item .project_description .github_link {
+  margin-top: 2%;
+  text-align: center;
+}
+.project_div .projects_list .project_item .project_description .github_link a {
+  color: blueviolet;
+}
+.project_div .projects_list .project_item .project_description .project_name {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+.project_div .projects_list .project_item:hover {
+  transform: scale(1.005);
+}
+.project_div .projects_list .project_item:hover .thumbnail_image a {
+  font-size: 18px;
+}
+.project_div .projects_list .project_item:hover .thumbnail_image .shadow_div {
+  opacity: 1;
+}
+.project_div .projects_list .project_item:hover .project_description .github_link a {
+  font-size: 18px;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+    padding: 2.1%;
+  }
+  to {
+    transform: rotate(360deg);
+    padding: 2%;
+  }
+}
+.display-none {
+  display: none;
+}/*# sourceMappingURL=Project-web.css.map */

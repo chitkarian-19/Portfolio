@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12%;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(153, 153, 226);
+  transition: color 1s;
+}
+nav .left {
+  font-size: 2rem;
+}
+nav .right {
+  width: 35%;
+}/*# sourceMappingURL=Navbar-web.css.map */

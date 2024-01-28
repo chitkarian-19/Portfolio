@@ -1,34 +1,32 @@
 import './App.css';
-
+import {Navbar} from '../src/components/Navbar/Navbar';
+import {Info} from '../src/components/Info/Info';
+import { PastExperience } from './components/PastExperience/PastExperience';
+import { Project } from './components/Project/Project';
+import { Contact } from './components/Contact/Contact';
 function App() {
   return (
-    <div className='mainBody container-fluid'>
+   <div className='body-container'>
+      <Navbar>
 
-      <div className='header row'>
-        {/* header image*/}
+      </Navbar>
+      <Info>
 
-        <div className="backgroundImage">
-         
-        </div>
+      </Info>
+      <hr />
+      <PastExperience>
+
+      </PastExperience>
+      <hr />
+      <Project>
+
+      </Project>
+      <hr />
+      <Contact>
         
-        
-        
+      </Contact>
+   </div>
 
-
-      </div>
-      {/* <div className="personalInfo row card shadow-sm  ">
-
-          <h2 className='name'>Sukrit Akhauri </h2>
-          <div className='designation'>Software Engineer</div>
-          <div className="addressInfo">Haryana, India</div>
-          <div className="mailInfo">sukritakhauri925@gmail.com</div>
-          <div className="contactInfo">+91-7015480564</div>
-      </div> */}
-
-      {/* <div className="projectList row d-flex flex-row">
-
-      </div> */}
-    </div>
   );
 }
 

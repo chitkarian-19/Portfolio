@@ -1,0 +1,76 @@
+.info{
+    display: flex;
+    height:70%;
+    justify-content:space-around;
+    .left{
+        width:35%;
+        font-size: 3rem;
+        div{
+            width: 100%;
+        }
+        .purple{
+            color:blueviolet;
+        }
+        margin-top: auto;
+        margin-bottom: auto;
+        .typewriter{
+            color:blueviolet;
+        }
+        .utility-buttons{
+            display: flex;
+            font-size: 16px;
+            margin-top: 10%;;
+            button{
+                margin-left:4%;
+                
+                
+            }
+            button:hover{
+                font-size:22px;
+                cursor:pointer;
+            }
+            .download-button{
+                background-color: #1e2167;
+                color:white;
+                border: 2px solid white;
+                border-radius: 6px;
+                font-size: 20px;
+                cursor:pointer;
+                padding: 2%;
+                box-shadow: 0px 6px 11px ;
+                border: navajowhite;
+                
+            }
+            .github-button{
+                a{
+                    text-decoration: none;
+                }
+                background-color: rgb(247, 233, 233);
+                color:black;
+                border: 2px solid black;
+                border-radius: 6px;
+                font-size: 20px;
+                cursor:pointer;
+                padding: 2%;
+                box-shadow: 0px 6px 11px gray;
+                border: navajowhite;
+            }
+
+        }
+    }
+    .right{
+        width:40%;
+        overflow: hidden;
+        height: 70%;
+        margin-bottom: auto;
+        margin-top: auto;
+    
+        img{
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+    }
+    padding-top: 1%;
+    
+}

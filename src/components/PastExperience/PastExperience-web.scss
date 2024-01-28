@@ -1,0 +1,71 @@
+.past_experience{
+    max-width: 80vw;
+    margin:auto;
+    font-size:24px;
+    color:white !important;
+    margin-top: 8%;
+    .short_line{
+        margin-top: auto;
+        margin-bottom: auto;
+        color:gray;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .experience-dashboard{
+        border-left:1px solid white;
+        margin-top: 5%;
+        .experience-item{
+            display: flex;
+            
+            margin:4% 0%;
+            
+            .link-line{
+                width:10%;
+                border:1px solid white;
+                height:0%;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            .job-description-div{
+                border:1px solid black;
+                padding:2%;
+                background-color: rgb(20 20 79);
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 #fff;
+                transition: 0.3s;
+                width: 90%;
+                .job-details{
+                    .job-title{
+                        font-weight: bold;
+                    }
+                    .job-meta{
+                        display: flex;
+                        justify-content: space-between;
+                        .job-date{
+                            float: right;
+                            font-size: 16px;
+
+                        }
+                        .job-name{
+                            
+                              a{
+                                text-decoration:underline;
+                                color:white;
+                               }
+                               a:hover{
+                                font-size: 26px;
+                               }
+                            
+                            
+                        }
+                    }
+                    margin-bottom: 2%;
+                }
+                .job-description{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    margin-bottom: 8%;
+}

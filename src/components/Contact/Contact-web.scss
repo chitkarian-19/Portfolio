@@ -1,0 +1,32 @@
+.contact_div{
+    text-align: center;
+    .contactHeader{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .contact_details{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        .email{
+            svg{
+                margin-right:0.5%;
+                width:2%;
+                height:2%;
+            }
+        }
+        .phone{
+            svg{
+                margin-right:0.5%;
+                width:2%;
+                height:2%;
+            }
+        }
+    }
+    .copyright_div{
+        margin-bottom: 2%;
+        font-size: 18px;
+        color:blueviolet;
+        text-decoration: underline;
+    }
+}

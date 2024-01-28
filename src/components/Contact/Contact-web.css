@@ -1,0 +1,27 @@
+.contact_div {
+  text-align: center;
+}
+.contact_div .contactHeader {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact_div .contact_details {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.contact_div .contact_details .email svg {
+  margin-right: 0.5%;
+  width: 2%;
+  height: 2%;
+}
+.contact_div .contact_details .phone svg {
+  margin-right: 0.5%;
+  width: 2%;
+  height: 2%;
+}
+.contact_div .copyright_div {
+  margin-bottom: 2%;
+  font-size: 18px;
+  color: blueviolet;
+  text-decoration: underline;
+}/*# sourceMappingURL=Contact-web.css.map */
