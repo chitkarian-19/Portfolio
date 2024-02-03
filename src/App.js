@@ -4,6 +4,7 @@ import {Info} from '../src/components/Info/Info';
 import { PastExperience } from './components/PastExperience/PastExperience';
 import { Project } from './components/Project/Project';
 import { Contact } from './components/Contact/Contact';
+
 function App() {
   return (
    <div className='body-container'>
@@ -23,7 +24,7 @@ function App() {
       </Project>
       <hr />
       <Contact>
-        
+
       </Contact>
    </div>
 

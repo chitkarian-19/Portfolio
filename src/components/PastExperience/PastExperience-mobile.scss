@@ -1,3 +1,54 @@
-*{
+@media screen and (max-width: 600px){
+.past_experience{
+    max-width: 90vw;
+   
+    font-size:18px;
     
+    .short_line{
+        
+        font-size: 16px;
+    }
+    .experience-dashboard{
+        
+        .experience-item{
+            margin: 10% 0%;
+            
+            .link-line{
+                
+            }
+            .job-description-div{
+                
+                .job-details{
+                    .job-title{
+                        
+                    }
+                    .job-meta{
+                        
+                        .job-date{
+                            
+                            font-size: 14px;
+
+                        }
+                        .job-name{
+                            
+                              a{
+                                
+                               }
+                               a:hover{
+                                font-size: 16px;
+                               }
+                            
+                            
+                        }
+                    }
+                    margin-bottom: 2%;
+                }
+                .job-description{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+}
 }

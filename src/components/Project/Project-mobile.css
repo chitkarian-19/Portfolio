@@ -1,1 +1,70 @@
-/*# sourceMappingURL=Project-mobile.css.map */
+@media screen and (max-width: 600px) {
+  .project_div .personal_projects_header {
+    font-size: 20px;
+  }
+  .project_div .personal_projects_header .square_box {
+    background-color: blueviolet;
+    width: 3%;
+    height: 3%;
+    padding: 2%;
+    animation: rotateAnimation 3s linear infinite;
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+  .project_div .projects_list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(min-content, 1fr)); /* Adjusted property for dynamic row height */
+    gap: 1%;
+    margin-bottom: unset;
+  }
+  .project_div .projects_list .project_item .thumbnail_image {
+    cursor: pointer;
+  }
+  .project_div .projects_list .project_item .thumbnail_image img {
+    width: 100%;
+    height: 240px;
+  }
+  .project_div .projects_list .project_item .thumbnail_image .shadow_div .icon-container svg {
+    width: 20%;
+    height: 20%;
+  }
+  .project_div .projects_list .project_item .project_description .github_link {
+    margin-top: 2%;
+    text-align: center;
+  }
+  .project_div .projects_list .project_item .project_description .github_link a {
+    color: blueviolet;
+  }
+  .project_div .projects_list .project_item .project_description .project_name {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .project_div .projects_list .project_item:hover {
+    transform: scale(1.005);
+  }
+  .project_div .projects_list .project_item:hover .thumbnail_image a {
+    font-size: 18px;
+  }
+  .project_div .projects_list .project_item:hover .thumbnail_image .shadow_div {
+    opacity: 1;
+  }
+  .project_div .projects_list .project_item:hover .project_description .github_link a {
+    font-size: 16px;
+  }
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+      padding: 2.1%;
+    }
+    to {
+      transform: rotate(360deg);
+      padding: 2%;
+    }
+  }
+  .display-none {
+    display: none;
+  }
+}/*# sourceMappingURL=Project-mobile.css.map */

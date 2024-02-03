@@ -1,1 +1,63 @@
-/*# sourceMappingURL=Navbar-mobile.css.map */
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: 18px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12%;
+    background-color: rgb(18, 18, 62);
+  }
+  nav .item_list {
+    display: none;
+  }
+  nav .dropdown-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5%;
+  }
+  nav .dropdown-button svg {
+    color: white;
+  }
+  nav ul {
+    justify-content: center;
+    vertical-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    width: 40%;
+    top: 8%;
+    right: 15%;
+    box-shadow: 0 4px 8px 0 #fff;
+    border: 0.5px solid white;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0% 5%;
+    position: relative;
+    border: 0px 0px 0.5px 0px solid white;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    cursor: pointer;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(153, 153, 226);
+    transition: color 1s;
+  }
+  nav .left {
+    font-size: 16px;
+  }
+  nav .right {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=Navbar-mobile.css.map */

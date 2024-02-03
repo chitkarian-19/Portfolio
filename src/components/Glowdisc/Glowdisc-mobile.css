@@ -1,1 +1,51 @@
-/*# sourceMappingURL=Glowdisc-mobile.css.map */
+@media screen and (max-width: 600px) {
+  .glowdisc {
+    display: none !important;
+    width: 22px;
+    height: 22px;
+    border: 1px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    animation: growAndShrink1 1s infinite;
+    left: 7%;
+  }
+  .glowdisc .inner-glowdisc {
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    animation: growAndShrink2 1s infinite;
+  }
+  @keyframes growAndShrink1 {
+    0% {
+      width: 22px;
+      height: 22px; /* Initial height at the start of the animation */
+    }
+    50% {
+      width: 24px;
+      height: 24px; /* Increased height halfway through the animation */
+    }
+    100% {
+      width: 22px;
+      height: 22px; /* Return to the initial height at the end of the animation */
+    }
+  }
+  @keyframes growAndShrink2 {
+    0% {
+      width: 18px;
+      height: 18px; /* Initial height at the start of the animation */
+    }
+    50% {
+      width: 20px;
+      height: 20px; /* Increased height halfway through the animation */
+    }
+    100% {
+      width: 18px;
+      height: 18px; /* Return to the initial height at the end of the animation */
+    }
+  }
+}/*# sourceMappingURL=Glowdisc-mobile.css.map */

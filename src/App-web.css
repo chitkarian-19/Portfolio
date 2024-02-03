@@ -1,24 +1,25 @@
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
-.body-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 33);
-  color: white;
-  font-family: "Poppins", sans-serif;
-  overflow: scroll;
-}
-.body-container hr {
-  color: white;
-  opacity: 1;
-  margin-top: unset;
-  margin-bottom: unset;
-  border: 0;
-  background: #9c97f1;
-  height: 1.2px;
-  margin: 2% 5%;
+@media screen and (min-width: 601px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  .body-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    overflow: scroll;
+  }
+  .body-container hr {
+    color: white;
+    opacity: 1;
+    margin-top: unset;
+    margin-bottom: unset;
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 2% 5%;
+  }
 }/*# sourceMappingURL=App-web.css.map */
