@@ -6,7 +6,7 @@ export const Navbar = () => {
     const handleNavClick = (e,id)=>{
         e.preventDefault();
         const scrollTargetElement = document.querySelector("#"+id)
-        console.log("Michael ");
+        console.log("Michael "+id);
         if (scrollTargetElement) {
             scrollTargetElement.scrollIntoView({ behavior: 'smooth' });
         }
@@ -35,8 +35,16 @@ export const Navbar = () => {
                 </button>
                 {dropdownVisible && (
                     <ul className="dropdown-list">
-                        <li> <a href="#" onClick={(e)=>{handleNavClick(e,"info")}}>About</a></li>
-                        <li> <a href="#" onClick={(e)=>{handleNavClick(e,"experience")}}>Experience</a></li>
+                        <li> 
+                            <a href="#" onClick={(e)=>{handleNavClick(e,"info")}}>
+                                About
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="#" onClick={(e)=>{handleNavClick(e,"experience")}}>
+                                Experience
+                            </a>
+                        </li>
                         <li> <a href="#" onClick={(e)=>{handleNavClick(e,"projects")}}>Projects</a></li>
                         <li> <a href="#" onClick={(e)=>{handleNavClick(e,"contact")}}>Contact</a></li>
                     </ul>
