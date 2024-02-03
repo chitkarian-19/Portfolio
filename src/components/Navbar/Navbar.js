@@ -6,11 +6,11 @@ export const Navbar = () => {
     const handleNavClick = (e,id)=>{
         e.preventDefault();
         const scrollTargetElement = document.querySelector("#"+id)
-        console.log("Michael "+id);
+        //console.log("Michael "+id);
         if (scrollTargetElement) {
             scrollTargetElement.scrollIntoView({ behavior: 'smooth' });
         }
-        
+        setDropdownVisible(false);
     }
     const [dropdownVisible, setDropdownVisible] = useState(false);
 
