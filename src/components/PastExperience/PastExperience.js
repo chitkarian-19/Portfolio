@@ -8,13 +8,21 @@ export const PastExperience = () => {
         {
             "id":1,
             "job_title":"SDE 1",
+            "company_name":"LeadSquared",
+            "company_link":"https://www.leadsquared.com/",
+            "timeline":"(Feb,2024)",
+            "job_description":"Node JS, React JS, Python, AWS Serverless"
+        },
+        {
+            "id":2,
+            "job_title":"SDE 1",
             "company_name":"Sharpsell.ai",
             "company_link":"https://www.sharpsell.ai/",
             "timeline":"(Aug,2022 - Feb,2024)",
             "job_description":"Revitalized Launchpad application with automated user-manager alignment using Laravel and MongoDB, optimizing efficiency. Enhanced MSell App through Restless APIs (PHP, Java, MySQL) with SOAP for streamlined data transfer. Spearheaded Datadog integration, reducing debugging time and improving overall monitoring. Developed a MERN stack sales enablement web app, empowering data-driven decision-making, and implemented a Python cron job automating Azure data transfer for Star Health analytics."
         },
         {
-            "id":2,
+            "id":3,
             "job_title":"SDE Intern",
             "company_name":"Enparadigm Performance Solutions",
             "company_link":"https://www.enparadigm.com/",
@@ -23,7 +31,7 @@ export const PastExperience = () => {
         }
         ,
         {
-            "id":3,
+            "id":4,
             "job_title":"DSA Instructor",
             "company_name":"Coding Ninjas",
             "company_link":"https://www.codingninjas.com/",
@@ -40,7 +48,7 @@ export const PastExperience = () => {
         <div className="short_line">
             Where I have worked so far?
         </div>
-        PastExperience
+        Past Experience
         
         <div className="experience-dashboard">
         
