@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b450ee85.css",
-    "main.js": "/Portfolio/static/js/main.82a78967.js",
+    "main.css": "/Portfolio/static/css/main.c8c611a7.css",
+    "main.js": "/Portfolio/static/js/main.ca11d49f.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.adde39b8dd22dce6f941.png",
-    "static/media/developer.jpg": "/Portfolio/static/media/developer.1446e487b4a5fd5f5128.jpg",
     "static/media/password-strength.png": "/Portfolio/static/media/password-strength.56ce089f256a141f770a.png",
     "static/media/survey-form.png": "/Portfolio/static/media/survey-form.d42c24c03bca34b6113e.png",
     "static/media/react-navigation.png": "/Portfolio/static/media/react-navigation.5873fc911571ae5c81e0.png",
     "static/media/resume.pdf": "/Portfolio/static/media/resume.06cfb875f986ea5afe81.pdf",
     "static/media/todo-list.png": "/Portfolio/static/media/todo-list.26c95b158908fb03ac51.png",
+    "static/media/Sukrit-Dev.jpeg": "/Portfolio/static/media/Sukrit-Dev.25bc124973cb70f919f2.jpeg",
     "static/media/stopwatch.png": "/Portfolio/static/media/stopwatch.0df225c8ce78aa389ccf.png",
     "static/media/tic-tac-toe.png": "/Portfolio/static/media/tic-tac-toe.5dad2434a5c08a5a80c5.png",
     "index.html": "/Portfolio/index.html",
-    "main.b450ee85.css.map": "/Portfolio/static/css/main.b450ee85.css.map",
-    "main.82a78967.js.map": "/Portfolio/static/js/main.82a78967.js.map",
+    "main.c8c611a7.css.map": "/Portfolio/static/css/main.c8c611a7.css.map",
+    "main.ca11d49f.js.map": "/Portfolio/static/js/main.ca11d49f.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b450ee85.css",
-    "static/js/main.82a78967.js"
+    "static/css/main.c8c611a7.css",
+    "static/js/main.ca11d49f.js"
   ]
 }
