@@ -1,6 +1,6 @@
 import React from 'react';
 import './Info.css';
-import portfolio from "../../images/Sukrit.jpeg";
+import portfolio from "../../images/Sukrit-Dev.jpeg";
 import resume from "../../resume/resume.pdf";
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 export const Info = ()=> {

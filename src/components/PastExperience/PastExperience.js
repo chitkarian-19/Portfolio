@@ -11,7 +11,7 @@ export const PastExperience = () => {
             "company_name":"LeadSquared",
             "company_link":"https://www.leadsquared.com/",
             "timeline":"(Feb,2024)",
-            "job_description":"Node JS, React JS, Python, AWS Serverless"
+            "job_description":"Developed a NoCode POC in React JS for automated code generation with flowchart visualization using OpenAI APIs. Built Node.js \"LeadSquared Apps (Lapps)\" integrated with LSQ v2 and Mavis APIs, deployed on AWS Lambda. Designed Python scripts for batch jobs like data migrations using AWS Batch Runner."
         },
         {
             "id":2,
